@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <style>
+            body{
+                background: #f0f2f5;
+            }
+            .outer{
+                height: 300px;
+                width: 350px;
+                margin: 100px auto;
+            }
+            .face{
+                height: 60px;
+                width: 100%;
+                
+            }
+            .face h1{
+                text-align: center;
+                font-size: 40px;
+                color: #1877f2;
+            }
+            .log{
+                height: 240px;
+                width: 100%;
+                background: white;
+                box-shadow: 0px 0px 5px 5px rgb(179, 170, 170);
+                border-radius: 10px;
+            }
+            .log p{
+                text-align: center;
+                /* padding-top: 10px; */
+                box-sizing: border-box;
+                word-spacing: 5px;
+                font-size: 18px;  
+            }
+            .inp1{
+                height: 35px;
+                width: 80%;
+                margin-left: 40px;
+                border-radius: 5px;
+                border: 1px solid gray;
+            }
+            .inp2{
+                height: 35px;
+                width: 80%;
+                margin-left: 40px;
+                margin-top: 10px;
+                border: 1px solid gray;
+            }
+            .btn{
+                height: 35px;
+                width: 80%;
+                margin-top: 10px;
+                margin-left: 40px;
+                background: #1877f2;
+                border: none;
+                border-radius: 5px;
+
+
+            }
+            .a{
+                height: 20px;
+                width: 100%;
+                margin-top: 20px;
+                font-size: 14px;
+                text-align: center;
+                color: #1877f2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="face">
+                <h1>facebook</h1>
+            </div>
+            <div class="log">
+                <p>Log to Facebook</p>
+                <input type="email" placeholder="Email address or phone number" class="inp1"> <br>
+                <input type="password" placeholder="Password" class="inp2"><br>
+                <input type="submit" value="Log in" class="btn"><br>
+                <div class="a">
+                    <a href="#">Forgotten account? </a> &nbsp; &nbsp;  <a href="#"> Sign up for Facebook</a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
