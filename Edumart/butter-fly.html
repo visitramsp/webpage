@@ -1,0 +1,235 @@
+<html>
+
+<head>
+    <style>
+        :root {
+            --mycolor: #1bbc9b;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #outer {
+            height: 1000px;
+            width: 1500px;
+            background: aqua;
+        }
+
+        #header {
+            height: 45px;
+            width: 1500px;
+            background: #222534;
+        }
+
+        #menu {
+            height: 70px;
+            width: 1500px;
+            background: #fefefe;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            height: 60px;
+            width: 120px;
+            border: none;
+            text-align: center;
+            line-height: 60px;
+            border-radius: 50px;
+            float: left;
+            margin-left: 10px;
+            padding-left: 15px;
+            box-sizing:border-box;
+        }
+
+        nav ul li:hover {
+            background: var(--mycolor);
+            border-radius: 10px;
+        }
+
+        #imgari {
+            height: 700px;
+            width: 1500px;
+            background: url("img/ab.jpg");
+            background-size: 100% 100%;
+            color: white;
+            font-size: 20px;
+        }
+
+        #footer {
+            height: 200px;
+            width: 1500px;
+            background: #222534;
+        }
+
+        .a {
+            height: 70px;
+            width: 200px;
+            /* //background:#a2a2a2; */
+            float: left;
+        }
+
+        #b {
+            height: 70px;
+            width: 1100px;
+            float: left;
+        }
+
+        #hed1 {
+            height: 45px;
+            width: 1200px;
+            float: left;
+        }
+
+        #hed2 {
+            height: 45px;
+            width: 300px;
+            /* //background:#e8e8ff; */
+            float: left;
+        }
+
+        .x {
+            height: 45px;
+            width: 250px;
+            padding-left: 100px;
+            float: left;
+            box-sizing: border-box;
+            color: white;
+            line-height: 45px;
+        }
+
+        #imgtxt {
+            height: 700px;
+            width: 700px;
+            background: rgba(0, 0, 0, .3);
+            margin-left: 120px;
+            box-sizing: border-box;
+            padding-top: 200px;
+            box-sizing: border-box;
+        }
+
+        #a1 {
+            height: 45px;
+            width: 200px;
+            border: 2px solid var(--mycolor);
+            text-align: center;
+            line-height: 45px;
+            color: #1bbc9b;
+        }
+
+        #imgtxt a {
+            text-decoration: none;
+        }
+
+        #imgbox {
+            height: 45px;
+            width: 200px;
+            background: var(--mycolor);
+            color: white;
+            font-size: 15px;
+            text-align: center;
+            line-height: 45px;
+        }
+
+        .box {
+            height: 200px;
+            width: 375px;
+            float: left;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+
+        .box:hover {
+            background: rgba(225, 255, 255, .1);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="header">
+            <div id="hed1">
+                <div class="x">Sat-Thu(09am-10pm)</div>
+                <div class="x">+919696599856</div>
+                <div class="x">shivamti1536@gmail.com</div>
+            </div>
+            <div id="hed2"></div>
+        </div>
+        <div id="menu">
+            <div class="a">
+                <img style="height:100%;width:100%;" src="img/img.png" />
+            </div>
+            <div id="b">
+                <nav>
+                    <ul>
+                        <a href="#">
+                            <li>HOME</li>
+                        </a>
+                        <a href="#">
+                            <li>Pages</li>
+                        </a>
+                        <a href="#">
+                            <li>Services</li>
+                        </a>
+                        <a href="#">
+                            <li>Porteolto</li>
+                        </a>
+                        <a href="#">
+                            <li>Blog</li>
+                        </a>
+                        <a href="#">
+                            <li>Shop</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact</li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="a"></div>
+        </div>
+        <div id="imgari">
+            <div id="imgtxt">
+                <a href="#">
+                    <div id="a1">Clean & Modern</div>
+                </a>
+                <b style="color:#1bbc9b;font-size:20px;">We Make High</b> Quality<br />
+                Business <b style="color:#1bbc9b;font-size:20px;">Template</b><br />
+                <h3>As one of the various Mac OS text editors</h3>
+                <h3> As one of the various Mac OS text editors,
+                    SimpleText was a somewhat primitive text editor</h3>
+                <div id="imgbox">ABOUT OUR COMPANY</div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="box">
+                <h1> Creative Design</h1>
+                <h3>As one of the various Mac OS text editors</h3>
+                <h3>SimpleText was a somewhat primitive</h3>
+            </div>
+            <div class="box">
+                <h1>Fully Responsiee</h1>
+                <h3>As one of the various Mac OS text editors</h3>
+                <h3>SimpleText was a somewhat primitive</h3>
+            </div>
+            <div class="box">
+                <h1>Amazing Feature</h1>
+                <h3>As one of the various Mac OS text editors</h3>
+                <h3>SimpleText was a somewhat primitive</h3>
+            </div>
+            <div class="box">
+                <h1>Quality Coding</h1>
+                <h3>As one of the various Mac OS text editors</h3>
+                <h3>SimpleText was a somewhat primitive</h3>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
